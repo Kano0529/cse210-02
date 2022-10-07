@@ -8,3 +8,4 @@ class Card:
 
     def draw_card(self):
         self.value = random.randint(1, 13)
+        return self.value
