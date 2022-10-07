@@ -121,3 +121,4 @@ class Director:
         print()
         # set the new card to be the current card for the next round.
         self.current_card = self.new_card
+        
