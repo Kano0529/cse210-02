@@ -104,10 +104,7 @@ class Director:
                 play_again = input("Play again? [y/n]: ")
 
             # Setting the flag for the main routine.
-            if play_again == 'y':
-                self.is_playing = True
-            else:
-                self.is_playing = False
+            self.is_playing = (play_again == 'y')
         print()
 
         # Set the new card to be the current card for the next round.
