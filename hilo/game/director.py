@@ -14,7 +14,7 @@ class Director:
         self.current_card = self.deck.draw_card()
 
     def start_game(self):
-        # Main loop 
+        # Main loop
         while self.is_playing and self.score > 0:
             self.get_input()
             self.do_update()
@@ -23,7 +23,6 @@ class Director:
     def get_input(self):
         print(f"The card is {self.current_card}")
         self.guess = input("Higher or Lower? [h/l]: ")
-
 
     def do_update(self):
 
